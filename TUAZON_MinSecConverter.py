@@ -1,6 +1,5 @@
+#promt the user to enter an integer for seconds
+Integer = int(input("Enter an integer for seconds: "))
 
-integer_seconds = int(input("Enter an Integer in seconds : "))
-minutes = integer_seconds // 60
-seconds = minutes % 
-print()
-print(integer_seconds, "seconds is", int(minutes), "minutes and" , int(seconds), "seconds.")
+#print outcome statement
+print(Integer, "seconds is", int(Integer/60), "minutes and", int(Integer%60), "seconds")
